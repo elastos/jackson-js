@@ -24,7 +24,7 @@ const defaultConfig = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js']
   },
-  mode: 'production',
+  mode: 'development', // 'production',
   plugins: []
 };
 

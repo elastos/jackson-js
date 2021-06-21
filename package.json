@@ -1,6 +1,6 @@
 {
   "name": "@elastosfoundation/jackson-js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "[Modified by the Elastos Foundation] JavaScript object serialization and deserialization library using decorators. It supports also advanced Object concepts such as polymorphism, Object identity and cyclic objects.",
   "author": {
     "name": "Lorenzo Pichilli",
