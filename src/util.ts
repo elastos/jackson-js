@@ -503,7 +503,7 @@ export const getArgumentNames = (method): string[] => {
   if (/^class({| extends)/.test(code)) {
     code = 'class JacksonClass ' + code.substring(5);
   } else if (/^function\s?\(/.test(code)) {
-    code = 'function JacksonFunction ' + code.substring(9);
+    code = 'function JacksonFunction ' + code.substring(8);
   } else if (!/^class\s?/.test(code) && !/^function\s?/.test(code)) {
     code = 'function ' + code;
   }
